@@ -1,0 +1,21 @@
+{
+  "name": "bitespeed-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Vatsal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
